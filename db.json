@@ -6,14 +6,12 @@
       "surname": "Navarro",
       "accountsList": [
         {
-          "savings": {
-            "amount": "321"
-          }
+          "name": "savings",
+          "amount": "123"
         },
         {
-          "international": {
-            "amount": "451"
-          }
+          "name": "international",
+          "amount": "512"
         }
       ]
     }
