@@ -1,44 +1,51 @@
 {
-	"login": {
-		"token": "123456",
-		"user": {
-			"name": "Santiago",
-			"surname": "Navarro",
-			"accountsList": [{
-					"name": "Savings",
-					"amount": "123",
-					"currency": "UY",
-					"id": "41234191"
-				},
-				{
-					"name": "Dolars",
-					"amount": "512",
-					"currency": "USD",
-					"id": "45235612"
-				},
-				{
-					"name": "Euros",
-					"amount": "512",
-					"currency": "EUR",
-					"id": "48234122"
-				}
-			]
-		}
-	},
-	"transfer": {
-		"status": "success"
-	},
-	"currencies": [{
-			"tag": "UY",
-			"conversionToUsd": "0,026"
-		},
-		{
-			"tag": "USD",
-			"conversionToUsd": "1"
-		},
-		{
-			"tag": "EUR",
-			"conversionToUsd": "1,07"
-		}
-	]
+  "login": {
+    "token": "123456",
+    "user": {
+      "name": "Santiago",
+      "surname": "Navarro",
+      "accountsList": [
+        {
+          "name": "Savings",
+          "amount": "123",
+          "currency": "UY",
+          "id": "41234191"
+        },
+        {
+          "name": "Dolars",
+          "amount": "512",
+          "currency": "USD",
+          "id": "45235612"
+        },
+        {
+          "name": "Euros",
+          "amount": "512",
+          "currency": "EUR",
+          "id": "48234122"
+        }
+      ]
+    }
+  },
+  "transfer": {
+    "status": "success"
+  },
+  "accounts": {
+    "name": "Gonzalo Caja de ahorros Euros",
+    "currency": "EUR",
+    "id": "41982844"
+  },
+  "currencies": [
+    {
+      "tag": "UY",
+      "conversionToUsd": "0,026"
+    },
+    {
+      "tag": "USD",
+      "conversionToUsd": "1"
+    },
+    {
+      "tag": "EUR",
+      "conversionToUsd": "1,07"
+    }
+  ]
 }
