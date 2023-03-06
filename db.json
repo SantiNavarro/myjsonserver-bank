@@ -1,22 +1,41 @@
 {
-  "login": {
-    "token": "123456",
-    "user": {
-      "name": "Santiago",
-      "surname": "Navarro",
-      "accountsList": [
-        {
-          "name": "savings",
-          "amount": "123"
-        },
-        {
-          "name": "international",
-          "amount": "512"
-        }
-      ]
-    }
-  },
-  "transfer": {
-    "status": "success"
-  }
+	"login": {
+		"token": "123456",
+		"user": {
+			"name": "Santiago",
+			"surname": "Navarro",
+			"accountsList": [{
+					"name": "Savings",
+					"amount": "123",
+					"currency": "UY"
+				},
+				{
+					"name": "Dolars",
+					"amount": "512",
+					"currency": "USD"
+				},
+				{
+					"name": "Euros",
+					"amount": "512",
+					"currency": "EUR"
+				}
+			]
+		}
+	},
+	"transfer": {
+		"status": "success"
+	},
+	"currencies": [{
+			"tag": "UY",
+			"conversionToUsd": "0,026"
+		},
+		{
+			"tag": "USD",
+			"conversionToUsd": "1"
+		},
+		{
+			"tag": "EUR",
+			"conversionToUsd": "1,07"
+		}
+	]
 }
