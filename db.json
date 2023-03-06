@@ -1,0 +1,24 @@
+{
+  "login": {
+    "token": "123456",
+    "user": {
+      "name": "Santiago",
+      "surname": "Navarro",
+      "accountsList": [
+        {
+          "savings": {
+            "amount": "321"
+          }
+        },
+        {
+          "international": {
+            "amount": "451"
+          }
+        }
+      ]
+    }
+  },
+  "transfer": {
+    "status": "success"
+  }
+}
